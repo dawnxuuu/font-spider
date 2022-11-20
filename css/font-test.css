@@ -1,0 +1,19 @@
+/* 声明 WebFont */
+@font-face {
+  font-family: 'pinghei';
+  src: url('../font/fangzhenglantting_black_GBK.ttf');
+
+  /* src:
+      url('./fonts/zcoolqingkehuangyouti.eot?#font-spider') format('embedded-opentype'),
+      url('./fonts/zcoolqingkehuangyouti.woff') format('woff'),
+      url('./fonts/zcoolqingkehuangyouti.ttf') format('truetype'),
+      url('./fonts/zcoolqingkehuangyouti.svg') format('svg');
+    font-weight: normal;
+    font-style: normal; */
+}
+
+/* 使用选择器指定字体 */
+*{
+  color: red;
+  font-family: 'pinghei';
+}
